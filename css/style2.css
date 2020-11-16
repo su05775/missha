@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#video-bg {
+    width: 100%;
+    height: 360px;
+    position: relative;
+}
+
+.sample>img {
+    width: 100%;
+}
+
+.inner {
+    background: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 360px;
+    position: absolute;
+}
+
+.youtube>video {
+    width: 535px;
+}
+
+.youtube {
+    width: 535px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    z-index: 99;
+}
+

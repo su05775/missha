@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navi>ul>li {
+    float: left;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    padding-left: 30px;
+}
+
+.logo>li>a>img {
+    margin-right: 20px;
+}
+
+.global {
+    font-size:23px
+}
+
+.menu {
+    margin-left: 900px;
+}
+
+.menu>li {
+    padding-right: 15px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.menu>li>button {
+    background-color: inherit;
+    border: none;
+    border-left: 1px solid #ccc;
+    margin: 25px 0 0 20px;
+    padding-left: 20px;
+}
+
+.menu2 {
+    float: right;
+}
+
+.menu2>button {
+    background-color: #000;
+    border: none;
+}
+
+.menu2>button>span {
+    width: 296px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.one {
+    position: relative;
+    top: 8px;
+}
+
+.bg {
+    clear: both;
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg01 {
+    padding-top: 80px;
+}
+
+.navi {
+    width: 1920px;
+    height: 80px;
+    position: fixed;
+    background-color: #fff;
+}
+
+.text {
+    text-align: center;
+    background: #212121;
+    color: #fff;
+    padding: 36px 0 33px
+}
+
+.tit2 {
+    margin-top: 21px;   
+}
+
+.PV {
+    width: 20px;
+    height: 4px;
+    margin: 0 0 55px;
+    background-color: #000;
+}
+
+.smallbox1 {
+    margin-top: 150px;
+    float: left;
+    padding-left: 90px;
+}
+
+.bigbox1 {
+    width: 100%;
+    height: 390px;
+}
+
+.medium {
+    width: 1280px;
+    height: 390px;
+    margin: 0 auto;
+}
+
+.smallbox2 {
+    width: 609px;
+    height: 390px;
+    margin: 0 auto;
+}
+
+.NEWHOT {
+    font-size: 28px;
+}
+
+.Products {
+    font-size: 20px;
+    color: #888;
+    margin-top: 20px;
+}
+
+.bigbox2>ul>li {
+    float: left;
+}
+
+.bigbox2>.mediumbox2>ul>li:nth-child(1) {
+    background-image: url(../images/ob1.jpg)
+}
+.bigbox2>.mediumbox2>ul>li:nth-child(2) {
+    background-image: url(../images/ob2.jpg)
+}
+.bigbox2>.mediumbox2>ul>li:nth-child(3) {
+    background-image: url(../images/ob3.jpg)
+}
+.bigbox2>.mediumbox2>ul>li:nth-child(4) {
+    background-image: url(../images/ob4.jpg)
+}
+
+.bigbox2>.mediumbox2>ul>li {
+    float: left;
+    background-size: 240px;
+    padding-top: 280px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mediumbox2 {
+    width: 1280px;
+    height: 370px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-top: 50px;
+    padding-bottom: 20px
+}
